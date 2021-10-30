@@ -1,0 +1,27 @@
+.navbarNew{
+    margin-left:10%;
+    width:80%;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 3px 0px #00000029 !important;
+    height: 13vh;
+}
+
+.logo{
+    margin-left:3.4vh;
+}
+
+.menu{
+    margin-right:6.6vh;
+    color:#4A7DA4;
+}
+
+.nav-link{
+    color:#4A7DA4 !important;
+    padding-left:1.5vh j!important;
+    padding-right:1.5vh !important;
+}
+
+.nav-link.active{
+    color:#FFBF69 !important;
+    border-bottom: solid;
+}
