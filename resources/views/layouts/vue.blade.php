@@ -24,7 +24,7 @@
     </style>
 </head>
 
-<body class="antialiased">
+<body style="overflow: hidden">
 
     <div id="app"></div>
 

@@ -1,8 +1,11 @@
 <template>
-  <div style="background-color:#F2F8FE;height:100vh">
+  <div style="height:100vh;
+              overflow:hidden;
+              background-image:linear-gradient(180deg, #FDFDFD 0%, #A9D4FF 100%);
+              ">
     <div class="navbar navbar-expand-md navbar-light bg-white shadow-sm navbarNew" style="">
       <router-link :to="{ name: 'home' }" class="navbar-brand logo"
-        >Logo</router-link
+        ><img :src="logo" alt="" class="logo-img" style="margin-top:2vh;width:200px"></router-link
       >
       <div id="navbarCollapse" class="collapse navbar-collapse">
         <ul class="nav ml-auto navbar-nav">
@@ -57,8 +60,14 @@
 
 <script>
 require('./../../css/navbar.css');
+import logo from "./../../../public/images/logo.png"
 
 export default {
+  data:function(){
+    return{
+      logo:logo
+    }
+  },
   watch: {
     $route() {
     //   $("#navbarCollapse").collapse("hide");
