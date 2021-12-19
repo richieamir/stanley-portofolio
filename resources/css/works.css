@@ -1,0 +1,30 @@
+.works{
+    font-size: 45px;
+    color: #1A517B;
+    font-weight: bold;
+}
+.works-child{
+    font-size: 35px;
+    color: #4A7DA4;
+    font-weight: normal;
+    margin-top: 50px;
+}
+.web{
+    width: 784px;
+    height: 542px;
+    border-radius: 20px;
+
+}
+.web:hover{    
+    -webkit-filter: brightness(85%);
+    -webkit-transition: all 10ms ease;
+    -moz-transition: all 10ms ease;
+    -o-transition: all 10ms ease;
+    -ms-transition: all 10ms ease;
+    transition: all 10ms ease;
+    cursor: pointer;
+}
+.works-child:hover{
+    color: #1A517B;
+    cursor: pointer;
+}
