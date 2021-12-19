@@ -1,0 +1,16 @@
+.header-about-me{
+    font-size: 35px;
+    color: #1A517B;
+    text-align: left;
+    width: 870px;
+    margin-top:30px;
+    font-weight: bold;
+}
+.detail-about-me{
+    color:#2E2E2E;
+    font-size: 24px;
+}
+.photo-about{
+    width: 350px;
+    height: 400px;
+}
