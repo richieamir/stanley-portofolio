@@ -2187,6 +2187,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _public_images_photo_detail_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../../../public/images/photo-detail.png */ "./public/images/photo-detail.png");
+/* harmony import */ var _public_images_about_me_experience_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../../../public/images/about_me/experience.png */ "./public/images/about_me/experience.png");
+/* harmony import */ var _public_images_about_me_background_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../../../public/images/about_me/background.png */ "./public/images/about_me/background.png");
+/* harmony import */ var _public_images_about_me_offering_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./../../../public/images/about_me/offering.png */ "./public/images/about_me/offering.png");
+/* harmony import */ var _public_images_about_me_mywork_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./../../../public/images/about_me/mywork.png */ "./public/images/about_me/mywork.png");
 //
 //
 //
@@ -2225,10 +2229,18 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__(/*! ./../../css/about.css */ "./resources/css/about.css");
 
 
+
+
+
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
-      photo: _public_images_photo_detail_png__WEBPACK_IMPORTED_MODULE_0__["default"]
+      photo: _public_images_photo_detail_png__WEBPACK_IMPORTED_MODULE_0__["default"],
+      experience: _public_images_about_me_experience_png__WEBPACK_IMPORTED_MODULE_1__["default"],
+      background: _public_images_about_me_background_png__WEBPACK_IMPORTED_MODULE_2__["default"],
+      offering: _public_images_about_me_offering_png__WEBPACK_IMPORTED_MODULE_3__["default"],
+      mywork: _public_images_about_me_mywork_png__WEBPACK_IMPORTED_MODULE_4__["default"]
     };
   }
 });
@@ -6957,7 +6969,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".header-about-me{\r\n    font-size: 35px;\r\n    color: #1A517B;\r\n    text-align: left;\r\n    width: 870px;\r\n    margin-top:30px;\r\n    font-weight: bold;\r\n}\r\n.detail-about-me{\r\n    color:#2E2E2E;\r\n    font-size: 24px;\r\n}\r\n.photo-about{\r\n    width: 350px;\r\n    height: 400px;\r\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".header-about-me{\r\n    font-size: 35px;\r\n    color: #1A517B;\r\n    text-align: left;\r\n    width: 870px;\r\n    margin-top:30px;\r\n    font-weight: bold;\r\n}\r\n.detail-about-me{\r\n    color:#2E2E2E;\r\n    font-size: 24px;\r\n}\r\n.photo-about{\r\n    width: 350px;\r\n    height: 400px;\r\n}\r\n.skills{\r\n    width:200px; \r\n    height: 200px;\r\n}\r\n.btn-skill{\r\n    background: #E29D41;\r\n    color: white;\r\n    border-radius: 16px;\r\n    border:none;\r\n    width:230px;\r\n    height: 60px;\r\n    margin-right: 20px;\r\n}\r\n\r\n.skill{\r\n  transition: transform .2s; /* Animation */\r\n}\r\n.skill:hover{\r\n    transform: scale(1.2); \r\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -7125,6 +7137,66 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/photo.png?033edb7e77af2e4ab1089061195b525d");
+
+/***/ }),
+
+/***/ "./public/images/about_me/background.png":
+/*!***********************************************!*\
+  !*** ./public/images/about_me/background.png ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/background.png?d988749238d855387e50c1e7f16bef04");
+
+/***/ }),
+
+/***/ "./public/images/about_me/experience.png":
+/*!***********************************************!*\
+  !*** ./public/images/about_me/experience.png ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/experience.png?299dfda1b32de9c1cc213665db447a72");
+
+/***/ }),
+
+/***/ "./public/images/about_me/mywork.png":
+/*!*******************************************!*\
+  !*** ./public/images/about_me/mywork.png ***!
+  \*******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/mywork.png?558b11b0453cf66085dce0772735fa62");
+
+/***/ }),
+
+/***/ "./public/images/about_me/offering.png":
+/*!*********************************************!*\
+  !*** ./public/images/about_me/offering.png ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/offering.png?4edbb6be40e501a1c561b661162133cf");
 
 /***/ }),
 
@@ -39198,7 +39270,47 @@ var render = function () {
         }),
       ]),
       _vm._v(" "),
-      _vm._m(1),
+      _c("div", { staticClass: "col-md-12 row mt-4" }, [
+        _c("div", { staticClass: "col-md-3 skill" }, [
+          _c("img", {
+            staticClass: "skills",
+            attrs: { src: _vm.experience, alt: "" },
+          }),
+          _vm._v(" "),
+          _c("button", { staticClass: "btn-skill" }, [_vm._v("My experience")]),
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-3 skill" }, [
+          _c("img", {
+            staticClass: "skills",
+            attrs: { src: _vm.background, alt: "" },
+          }),
+          _vm._v(" "),
+          _c("button", { staticClass: "btn-skill" }, [_vm._v("My background")]),
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-3 skill" }, [
+          _c("img", {
+            staticClass: "skills",
+            attrs: { src: _vm.offering, alt: "" },
+          }),
+          _vm._v(" "),
+          _c("button", { staticClass: "btn-skill" }, [
+            _vm._v("What I'm offering"),
+          ]),
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-3 skill" }, [
+          _c("img", {
+            staticClass: "skills",
+            attrs: { src: _vm.mywork, alt: "" },
+          }),
+          _vm._v(" "),
+          _c("button", { staticClass: "btn-skill" }, [
+            _vm._v("Check out my work"),
+          ]),
+        ]),
+      ]),
     ]),
   ])
 }
@@ -39217,62 +39329,6 @@ var staticRenderFns = [
           "My Name is Stanley Muliawan and I'm a full time UI / UX Designer specialized in eCommerce with 4+ years of experience. I focused on creating usable, acceptable, and understandable user experiences for both web and mobile. I am very passionate in modern technology and continuously learning new things to ensure I offer you the best."
         ),
       ]),
-      _vm._v(" "),
-      _c("p", { staticClass: "detail-about-me" }, [
-        _vm._v(
-          "My Name is Stanley Muliawan and I'm a full time UI / UX Designer specialized in eCommerce with 4+ years of experience. I focused on creating usable, acceptable, and understandable user experiences for both web and mobile. I am very passionate in modern technology and continuously learning new things to ensure I offer you the best."
-        ),
-      ]),
-      _vm._v(" "),
-      _c("p", { staticClass: "detail-about-me" }, [
-        _vm._v(
-          "My Name is Stanley Muliawan and I'm a full time UI / UX Designer specialized in eCommerce with 4+ years of experience. I focused on creating usable, acceptable, and understandable user experiences for both web and mobile. I am very passionate in modern technology and continuously learning new things to ensure I offer you the best."
-        ),
-      ]),
-      _vm._v(" "),
-      _c("p", { staticClass: "detail-about-me" }, [
-        _vm._v(
-          "My Name is Stanley Muliawan and I'm a full time UI / UX Designer specialized in eCommerce with 4+ years of experience. I focused on creating usable, acceptable, and understandable user experiences for both web and mobile. I am very passionate in modern technology and continuously learning new things to ensure I offer you the best."
-        ),
-      ]),
-      _vm._v(" "),
-      _c("p", { staticClass: "detail-about-me" }, [
-        _vm._v(
-          "My Name is Stanley Muliawan and I'm a full time UI / UX Designer specialized in eCommerce with 4+ years of experience. I focused on creating usable, acceptable, and understandable user experiences for both web and mobile. I am very passionate in modern technology and continuously learning new things to ensure I offer you the best."
-        ),
-      ]),
-      _vm._v(" "),
-      _c("p", { staticClass: "detail-about-me" }, [
-        _vm._v(
-          "My Name is Stanley Muliawan and I'm a full time UI / UX Designer specialized in eCommerce with 4+ years of experience. I focused on creating usable, acceptable, and understandable user experiences for both web and mobile. I am very passionate in modern technology and continuously learning new things to ensure I offer you the best."
-        ),
-      ]),
-      _vm._v(" "),
-      _c("p", { staticClass: "detail-about-me" }, [
-        _vm._v(
-          "My Name is Stanley Muliawan and I'm a full time UI / UX Designer specialized in eCommerce with 4+ years of experience. I focused on creating usable, acceptable, and understandable user experiences for both web and mobile. I am very passionate in modern technology and continuously learning new things to ensure I offer you the best."
-        ),
-      ]),
-      _vm._v(" "),
-      _c("p", { staticClass: "detail-about-me" }, [
-        _vm._v(
-          "My Name is Stanley Muliawan and I'm a full time UI / UX Designer specialized in eCommerce with 4+ years of experience. I focused on creating usable, acceptable, and understandable user experiences for both web and mobile. I am very passionate in modern technology and continuously learning new things to ensure I offer you the best."
-        ),
-      ]),
-    ])
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-12 row" }, [
-      _c("div", { staticClass: "col-md-3" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-md-3" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-md-3" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-md-3" }),
     ])
   },
 ]

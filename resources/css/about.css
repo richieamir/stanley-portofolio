@@ -14,3 +14,23 @@
     width: 350px;
     height: 400px;
 }
+.skills{
+    width:200px; 
+    height: 200px;
+}
+.btn-skill{
+    background: #E29D41;
+    color: white;
+    border-radius: 16px;
+    border:none;
+    width:230px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.skill{
+  transition: transform .2s; /* Animation */
+}
+.skill:hover{
+    transform: scale(1.2); 
+}
