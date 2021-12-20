@@ -1,9 +1,6 @@
 <template>
-  <div style="height:100vh;
-              overflow:hidden;
-              background-image:linear-gradient(180deg, #FDFDFD 0%, #A9D4FF 100%);
-              ">
-    <div class="navbar navbar-expand-md navbar-light bg-white shadow-sm navbarNew" style="">
+  <div style="background-image:linear-gradient(180deg, #FDFDFD 0%, #A9D4FF 100%);">
+    <div class="navbar navbar-expand-md fixed-top navbar-light bg-white shadow-sm navbarNew" style="">
       <router-link :to="{ name: 'home' }" class="navbar-brand logo"
         ><img :src="logo" alt="" class="logo-img" style="margin-top:2vh;width:200px"></router-link
       >

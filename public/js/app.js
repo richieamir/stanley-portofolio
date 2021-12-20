@@ -2158,9 +2158,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
 __webpack_require__(/*! ./../../css/navbar.css */ "./resources/css/navbar.css");
 
 
@@ -2190,6 +2187,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _public_images_photo_detail_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../../../public/images/photo-detail.png */ "./public/images/photo-detail.png");
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -2274,6 +2278,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _public_images_group_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../../../public/images/group.png */ "./public/images/group.png");
 /* harmony import */ var _public_image_photo_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../../../public/image/photo.png */ "./public/image/photo.png");
 /* harmony import */ var _public_images_path_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../../../public/images/path.png */ "./public/images/path.png");
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -6970,7 +6981,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".navbarNew{\r\n    margin-left:10%;\r\n    width:80%;\r\n    border-radius: 0px 0px 20px 20px;\r\n    box-shadow: 0px 3px 0px #00000029 !important;\r\n    height: 13vh;\r\n}\r\n\r\n.logo{\r\n    margin-left:3.4vh;\r\n}\r\n\r\n.menu{\r\n    margin-right:6.6vh;\r\n    color:#4A7DA4;\r\n}\r\n\r\n.nav-link{\r\n    color:#4A7DA4 !important;\r\n    padding-left:1.5vh j!important;\r\n    padding-right:1.5vh !important;\r\n}\r\n\r\n.nav-link.active{\r\n    color:#FFBF69 !important;\r\n    border-bottom: solid;\r\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".navbarNew{\r\n    margin-left:10%;\r\n    width:80%;\r\n    border-radius: 0px 0px 20px 20px;\r\n    box-shadow: 0px 3px 0px #00000029 !important;\r\n    height: 13vh;\r\n}\r\n.logo{\r\n    margin-left:3.4vh;\r\n}\r\n\r\n.menu{\r\n    margin-right:6.6vh;\r\n    color:#4A7DA4;\r\n}\r\n\r\n.nav-link{\r\n    color:#4A7DA4 !important;\r\n    padding-left:1.5vh j!important;\r\n    padding-right:1.5vh !important;\r\n}\r\n\r\n.nav-link:hover{\r\n    color: #1A517B !important;\r\n}\r\n\r\n.nav-link.active{\r\n    color:#FFBF69 !important;\r\n    border-bottom: solid;\r\n}\r\n\r\n.container{\r\n    margin-top:100px;\r\n}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -6995,7 +7006,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".rectangle{\r\n    left:70vh;\r\n    right:40vh;\r\n    /* background-color: black; */\r\n    bottom: 0px;\r\n    margin-right: 100px;\r\n    margin-left: 10px;\r\n    margin-bottom: 10px;\r\n\r\n}\r\n.background-custom{   \r\n    height: 80%;    \r\n    position: absolute;\r\n    /* width: 100%;\r\n    height: 100%;\r\n    max-height: 100%;\r\n    max-width: 100%; */\r\n}\r\n\r\n.image{\r\n    width: 1000px;\r\n    height: 1000px;\r\n}\r\n\r\n.photo-position{\r\n    left:26vh;\r\n    top: 25px;\r\n    position: absolute;\r\n\r\n}\r\n.path-position{\r\n    top:499px;\r\n    left:69px;\r\n    position: absolute;\r\n}\r\n.group-position{\r\n    top:279px;\r\n    right:190px;\r\n    position: absolute;\r\n}\r\n.intro-container{\r\n    margin-top:25vh;\r\n    width:82vh;\r\n}\r\n.intro{\r\n    text-align: left;\r\n    font: normal normal bold 56px/77px Nunito sans-serif;\r\n    letter-spacing: 0px;\r\n    color: #1A517B;\r\n    opacity: 1;\r\n    \r\n    margin-top:20vh;\r\n    width:65vh;\r\n}\r\n.intro-detail{\r\n    text-align: left;\r\n    font: normal normal normal 20px/27px Nunito;\r\n    letter-spacing: 0px;\r\n    color: #2E2E2E;\r\n    opacity: 1;\r\n\r\n    width:65vh !important;\r\n}\r\n.button {\r\n    background-color: #E29D41;\r\n    border: none;\r\n    color: white;\r\n    padding: 10px 3px;\r\n    text-align: center;\r\n    text-decoration: none;\r\n    display: inline-block;\r\n    font-size: 12px;\r\n    margin: 4px 2px;\r\n    transition-duration: 0.4s;\r\n    cursor: pointer !important;\r\n    border-radius: 8px;\r\n    width: 100px;\r\n  }\r\n  .button:hover{\r\n      background-color: black !important;\r\n  }\r\n\r\n@media (min-width: 1400px) {\r\n    .photo {\r\n        width: 620px;\r\n        height: 620px;\r\n        -o-object-fit: contain;\r\n           object-fit: contain;\r\n    }\r\n    .path{\r\n        width: 1365px;\r\n        height: 269px;\r\n        -o-object-fit: contain;\r\n           object-fit: contain;\r\n    }\r\n    .group{\r\n        width: 682px;\r\n        height: 611px;\r\n    }\r\n  }\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".rectangle{\r\n    left:70vh;\r\n    right:40vh;\r\n    /* background-color: black; */\r\n    bottom: 0px;\r\n    margin-right: 100px;\r\n    margin-left: 10px;\r\n    margin-bottom: 10px;\r\n\r\n}\r\n.background-custom{   \r\n    height: 80%;    \r\n    position: absolute;\r\n    /* width: 100%;\r\n    height: 100%;\r\n    max-height: 100%;\r\n    max-width: 100%; */\r\n}\r\n\r\n.image{\r\n    width: 1000px;\r\n    height: 1000px;\r\n}\r\n\r\n/* .photo-position{\r\n    left:26vh;\r\n    top: -33px;\r\n    position: absolute;\r\n\r\n} */\r\n.path-position{\r\n    bottom:0;\r\n    left:69px;\r\n    position: absolute;\r\n}\r\n.group-position{\r\n    bottom:0;\r\n    right:190px;\r\n    position: absolute;\r\n}\r\n.intro-container{\r\n    margin-top:25vh;\r\n    width:82vh;\r\n}\r\n.intro{\r\n    text-align: left;\r\n    font: normal normal bold 56px/77px Nunito sans-serif;\r\n    letter-spacing: 0px;\r\n    color: #1A517B;\r\n    opacity: 1;\r\n    \r\n    margin-top:20vh;\r\n    width:65vh;\r\n}\r\n.intro-detail{\r\n    text-align: left;\r\n    font: normal normal normal 20px/27px Nunito;\r\n    letter-spacing: 0px;\r\n    color: #2E2E2E;\r\n    opacity: 1;\r\n\r\n    width:65vh !important;\r\n}\r\n.button {\r\n    background-color: #E29D41;\r\n    border: none;\r\n    position: absolute;\r\n    z-index: 9999;\r\n    color: white;\r\n    padding: 10px 3px;\r\n    text-align: center;\r\n    text-decoration: none;\r\n    display: inline-block;\r\n    font-size: 12px;\r\n    margin: 4px 2px;\r\n    transition-duration: 0.4s;\r\n    cursor: pointer !important;\r\n    border-radius: 8px;\r\n    width: 100px;\r\n  }\r\n  .button:hover{\r\n      background-color: #FFBF69;\r\n      cursor: pointer;\r\n  }\r\n\r\n@media (min-width: 1400px) {\r\n    .photo {\r\n        width: 620px;\r\n        height: 631px;\r\n        -o-object-fit: contain;\r\n           object-fit: contain;\r\n    }\r\n    .path{\r\n        width: 1365px;\r\n        height: 269px;\r\n        -o-object-fit: contain;\r\n           object-fit: contain;\r\n    }\r\n    .group{\r\n        width: 682px;\r\n        height: 611px;\r\n    }\r\n  }\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -39033,8 +39044,6 @@ var render = function () {
     "div",
     {
       staticStyle: {
-        height: "100vh",
-        overflow: "hidden",
         "background-image": "linear-gradient(180deg, #FDFDFD 0%, #A9D4FF 100%)",
       },
     },
@@ -39043,7 +39052,7 @@ var render = function () {
         "div",
         {
           staticClass:
-            "navbar navbar-expand-md navbar-light bg-white shadow-sm navbarNew",
+            "navbar navbar-expand-md fixed-top navbar-light bg-white shadow-sm navbarNew",
         },
         [
           _c(
@@ -39208,6 +39217,48 @@ var staticRenderFns = [
           "My Name is Stanley Muliawan and I'm a full time UI / UX Designer specialized in eCommerce with 4+ years of experience. I focused on creating usable, acceptable, and understandable user experiences for both web and mobile. I am very passionate in modern technology and continuously learning new things to ensure I offer you the best."
         ),
       ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "detail-about-me" }, [
+        _vm._v(
+          "My Name is Stanley Muliawan and I'm a full time UI / UX Designer specialized in eCommerce with 4+ years of experience. I focused on creating usable, acceptable, and understandable user experiences for both web and mobile. I am very passionate in modern technology and continuously learning new things to ensure I offer you the best."
+        ),
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "detail-about-me" }, [
+        _vm._v(
+          "My Name is Stanley Muliawan and I'm a full time UI / UX Designer specialized in eCommerce with 4+ years of experience. I focused on creating usable, acceptable, and understandable user experiences for both web and mobile. I am very passionate in modern technology and continuously learning new things to ensure I offer you the best."
+        ),
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "detail-about-me" }, [
+        _vm._v(
+          "My Name is Stanley Muliawan and I'm a full time UI / UX Designer specialized in eCommerce with 4+ years of experience. I focused on creating usable, acceptable, and understandable user experiences for both web and mobile. I am very passionate in modern technology and continuously learning new things to ensure I offer you the best."
+        ),
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "detail-about-me" }, [
+        _vm._v(
+          "My Name is Stanley Muliawan and I'm a full time UI / UX Designer specialized in eCommerce with 4+ years of experience. I focused on creating usable, acceptable, and understandable user experiences for both web and mobile. I am very passionate in modern technology and continuously learning new things to ensure I offer you the best."
+        ),
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "detail-about-me" }, [
+        _vm._v(
+          "My Name is Stanley Muliawan and I'm a full time UI / UX Designer specialized in eCommerce with 4+ years of experience. I focused on creating usable, acceptable, and understandable user experiences for both web and mobile. I am very passionate in modern technology and continuously learning new things to ensure I offer you the best."
+        ),
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "detail-about-me" }, [
+        _vm._v(
+          "My Name is Stanley Muliawan and I'm a full time UI / UX Designer specialized in eCommerce with 4+ years of experience. I focused on creating usable, acceptable, and understandable user experiences for both web and mobile. I am very passionate in modern technology and continuously learning new things to ensure I offer you the best."
+        ),
+      ]),
+      _vm._v(" "),
+      _c("p", { staticClass: "detail-about-me" }, [
+        _vm._v(
+          "My Name is Stanley Muliawan and I'm a full time UI / UX Designer specialized in eCommerce with 4+ years of experience. I focused on creating usable, acceptable, and understandable user experiences for both web and mobile. I am very passionate in modern technology and continuously learning new things to ensure I offer you the best."
+        ),
+      ]),
     ])
   },
   function () {
@@ -39289,33 +39340,37 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
-    _vm._m(0),
-    _vm._v(" "),
-    _c("img", {
-      staticClass: "path path-position",
-      attrs: { src: _vm.path, alt: "" },
-    }),
-    _vm._v(" "),
-    _c("img", {
-      staticClass: "group group-position",
-      attrs: { src: _vm.group, alt: "" },
-    }),
-    _vm._v(" "),
-    _c("div", { staticClass: "background-custom rectangle" }, [
+  return _c(
+    "div",
+    { staticClass: "row", staticStyle: { overflow: "hidden" } },
+    [
       _c("img", {
-        staticClass: "photo photo-position",
-        attrs: { src: _vm.photo, alt: "" },
+        staticClass: "path path-position",
+        attrs: { src: _vm.path, alt: "" },
       }),
-    ]),
-  ])
+      _vm._v(" "),
+      _c("img", {
+        staticClass: "group group-position",
+        attrs: { src: _vm.group, alt: "" },
+      }),
+      _vm._v(" "),
+      _vm._m(0),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-6" }, [
+        _c("img", {
+          staticClass: "photo photo-position",
+          attrs: { src: _vm.photo, alt: "" },
+        }),
+      ]),
+    ]
+  )
 }
 var staticRenderFns = [
   function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
+    return _c("div", { staticClass: "col-md-6" }, [
       _c("p", { staticClass: "intro" }, [_vm._v("Hi, I am Stanley Muliawan")]),
       _vm._v(" "),
       _c("p", { staticClass: "intro-detail" }, [
@@ -39324,11 +39379,9 @@ var staticRenderFns = [
         ),
       ]),
       _vm._v(" "),
-      _c(
-        "button",
-        { staticClass: "button button1", attrs: { type: "submit" } },
-        [_vm._v("More about me")]
-      ),
+      _c("button", { staticClass: "button", attrs: { type: "submit" } }, [
+        _vm._v("More about me"),
+      ]),
     ])
   },
 ]

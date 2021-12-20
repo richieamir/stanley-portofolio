@@ -5,7 +5,6 @@
     box-shadow: 0px 3px 0px #00000029 !important;
     height: 13vh;
 }
-
 .logo{
     margin-left:3.4vh;
 }
@@ -21,7 +20,15 @@
     padding-right:1.5vh !important;
 }
 
+.nav-link:hover{
+    color: #1A517B !important;
+}
+
 .nav-link.active{
     color:#FFBF69 !important;
     border-bottom: solid;
+}
+
+.container{
+    margin-top:100px;
 }

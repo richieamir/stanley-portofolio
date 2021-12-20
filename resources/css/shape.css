@@ -25,19 +25,19 @@
     height: 1000px;
 }
 
-.photo-position{
+/* .photo-position{
     left:26vh;
-    top: 25px;
+    top: -33px;
     position: absolute;
 
-}
+} */
 .path-position{
-    top:499px;
+    bottom:0;
     left:69px;
     position: absolute;
 }
 .group-position{
-    top:279px;
+    bottom:0;
     right:190px;
     position: absolute;
 }
@@ -67,6 +67,8 @@
 .button {
     background-color: #E29D41;
     border: none;
+    position: absolute;
+    z-index: 9999;
     color: white;
     padding: 10px 3px;
     text-align: center;
@@ -80,13 +82,14 @@
     width: 100px;
   }
   .button:hover{
-      background-color: black !important;
+      background-color: #FFBF69;
+      cursor: pointer;
   }
 
 @media (min-width: 1400px) {
     .photo {
         width: 620px;
-        height: 620px;
+        height: 631px;
         object-fit: contain;
     }
     .path{

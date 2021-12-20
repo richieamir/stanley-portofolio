@@ -24,7 +24,7 @@
     </style>
 </head>
 
-<body style="overflow: hidden">
+<body>
 
     <div id="app"></div>
 
