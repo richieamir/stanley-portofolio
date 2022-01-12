@@ -47,10 +47,14 @@
 }
 .intro{
     text-align: left;
-    font: normal normal bold 56px/77px Nunito sans-serif;
-    letter-spacing: 0px;
-    color: #1A517B;
-    opacity: 1;
+    /* font: normal normal bold 56px/77px Nunito sans-serif; */
+    /* font:sans-serif; */
+    font-size: 56px;
+    /* letter-spacing: 0px; */
+    color: black !important;
+    /* opacity: 1; */
+    font-weight: bold;
+    
     
     margin-top:20vh;
     width:65vh;
@@ -59,7 +63,7 @@
     text-align: left;
     font: normal normal normal 20px/27px Nunito;
     letter-spacing: 0px;
-    color: #2E2E2E;
+    color: black !important;
     opacity: 1;
 
     width:65vh !important;

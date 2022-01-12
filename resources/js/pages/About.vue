@@ -41,6 +41,7 @@ import experience from "./../../../public/images/about_me/experience.png"
 import background from "./../../../public/images/about_me/background.png"
 import offering from "./../../../public/images/about_me/offering.png"
 import mywork from "./../../../public/images/about_me/mywork.png"
+import footer from "./../layouts/Footer.vue";
 export default {
         data:function(){
       return{
@@ -49,6 +50,7 @@ export default {
         background:background,
         offering:offering,
         mywork:mywork,
+        footer:footer
       }
     }
 }
