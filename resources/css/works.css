@@ -28,3 +28,11 @@
     color: #1A517B;
     cursor: pointer;
 }
+.nav{
+    color: #4A7DA4;
+    font-weight: bold;
+}
+.nav:hover{
+    color: #1A517B;
+    cursor: pointer;
+}
