@@ -2411,9 +2411,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
 __webpack_require__(/*! ./../../css/shape.css */ "./resources/css/shape.css");
 
 
@@ -7156,7 +7153,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".rectangle{\r\n    left:70vh;\r\n    right:40vh;\r\n    /* background-color: black; */\r\n    bottom: 0px;\r\n    margin-right: 100px;\r\n    margin-left: 10px;\r\n    margin-bottom: 10px;\r\n\r\n}\r\n.background-custom{   \r\n    height: 80%;    \r\n    position: absolute;\r\n    /* width: 100%;\r\n    height: 100%;\r\n    max-height: 100%;\r\n    max-width: 100%; */\r\n}\r\n\r\n.image{\r\n    width: 1000px;\r\n    height: 1000px;\r\n}\r\n\r\n/* .photo-position{\r\n    left:26vh;\r\n    top: -33px;\r\n    position: absolute;\r\n\r\n} */\r\n.path-position{\r\n    bottom:0;\r\n    left:69px;\r\n    position: absolute;\r\n}\r\n.group-position{\r\n    bottom:0;\r\n    right:190px;\r\n    position: absolute;\r\n}\r\n.intro-container{\r\n    margin-top:25vh;\r\n    width:82vh;\r\n}\r\n.intro{\r\n    text-align: left;\r\n    /* font: normal normal bold 56px/77px Nunito sans-serif; */\r\n    /* font:sans-serif; */\r\n    font-size: 56px;\r\n    /* letter-spacing: 0px; */\r\n    color: black !important;\r\n    /* opacity: 1; */\r\n    font-weight: bold;\r\n    \r\n    \r\n    margin-top:20vh;\r\n    width:65vh;\r\n}\r\n.intro-detail{\r\n    text-align: left;\r\n    font: normal normal normal 20px/27px Nunito;\r\n    letter-spacing: 0px;\r\n    color: black !important;\r\n    opacity: 1;\r\n\r\n    width:65vh !important;\r\n}\r\n.button {\r\n    background-color: #E29D41;\r\n    border: none;\r\n    position: absolute;\r\n    z-index: 9999;\r\n    color: white;\r\n    padding: 10px 3px;\r\n    text-align: center;\r\n    text-decoration: none;\r\n    display: inline-block;\r\n    font-size: 12px;\r\n    margin: 4px 2px;\r\n    transition-duration: 0.4s;\r\n    cursor: pointer !important;\r\n    border-radius: 8px;\r\n    width: 100px;\r\n  }\r\n  .button:hover{\r\n      background-color: #FFBF69;\r\n      cursor: pointer;\r\n  }\r\n\r\n@media (min-width: 1400px) {\r\n    .photo {\r\n        width: 620px;\r\n        height: 631px;\r\n        -o-object-fit: contain;\r\n           object-fit: contain;\r\n    }\r\n    .path{\r\n        width: 1365px;\r\n        height: 269px;\r\n        -o-object-fit: contain;\r\n           object-fit: contain;\r\n    }\r\n    .group{\r\n        width: 682px;\r\n        height: 611px;\r\n    }\r\n  }\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".rectangle {\r\n    left: 70vh;\r\n    right: 40vh;\r\n    /* background-color: black; */\r\n    bottom: 0px;\r\n    margin-right: 100px;\r\n    margin-left: 10px;\r\n    margin-bottom: 10px;\r\n}\r\n.background-custom {\r\n    height: 80%;\r\n    position: absolute;\r\n    /* width: 100%;\r\n    height: 100%;\r\n    max-height: 100%;\r\n    max-width: 100%; */\r\n}\r\n\r\n.image {\r\n    width: 1000px;\r\n    height: 1000px;\r\n}\r\n\r\n/* .photo-position{\r\n    left:26vh;\r\n    top: -33px;\r\n    position: absolute;\r\n\r\n} */\r\n.path-position {\r\n    bottom: 0;\r\n    left: 69px;\r\n    position: absolute;\r\n}\r\n.group-position {\r\n    bottom: 0;\r\n    right: 0px;\r\n    position: absolute;\r\n}\r\n.intro-container {\r\n    margin-top: 25vh;\r\n    width: 82vh;\r\n}\r\n.intro {\r\n    text-align: left;\r\n    /* font: normal normal bold 56px/77px Nunito sans-serif; */\r\n    /* font:sans-serif; */\r\n    font-size: 56px;\r\n    /* letter-spacing: 0px; */\r\n    color: black !important;\r\n    /* opacity: 1; */\r\n    font-weight: bold;\r\n\r\n    margin-top: 20vh;\r\n    width: 65vh;\r\n}\r\n.intro-detail {\r\n    text-align: left;\r\n    font: normal normal normal 20px/27px Nunito;\r\n    letter-spacing: 0px;\r\n    color: black !important;\r\n    opacity: 1;\r\n\r\n    width: 65vh !important;\r\n}\r\n.button {\r\n    background-color: #e29d41;\r\n    border: none;\r\n    position: absolute;\r\n    z-index: 9999;\r\n    color: white;\r\n    padding: 10px 3px;\r\n    text-align: center;\r\n    text-decoration: none;\r\n    display: inline-block;\r\n    font-size: 12px;\r\n    margin: 4px 2px;\r\n    transition-duration: 0.4s;\r\n    cursor: pointer !important;\r\n    border-radius: 8px;\r\n    width: 100px;\r\n}\r\n.button:hover {\r\n    background-color: #ffbf69;\r\n    cursor: pointer;\r\n}\r\n\r\n@media (min-width: 1400px) {\r\n    .photo {\r\n        width: 820px;\r\n        height: 831px;\r\n        -o-object-fit: contain;\r\n           object-fit: contain;\r\n    }\r\n    .path {\r\n        width: 1365px;\r\n        height: 269px;\r\n        -o-object-fit: contain;\r\n           object-fit: contain;\r\n    }\r\n    .group {\r\n        width: 682px;\r\n        height: 611px;\r\n    }\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -7204,7 +7201,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".works{\r\n    font-size: 45px;\r\n    color: #1A517B;\r\n    font-weight: bold;\r\n}\r\n.works-child{\r\n    font-size: 35px;\r\n    color: #4A7DA4;\r\n    font-weight: normal;\r\n    margin-top: 50px;\r\n}\r\n.web{\r\n    width: 784px;\r\n    height: 542px;\r\n    border-radius: 20px;\r\n\r\n}\r\n.web:hover{    \r\n    -webkit-filter: brightness(85%);\r\n    transition: all 10ms ease;\r\n    cursor: pointer;\r\n}\r\n.works-child:hover{\r\n    color: #1A517B;\r\n    cursor: pointer;\r\n}\r\n.nav{\r\n    color: #4A7DA4;\r\n    font-weight: bold;\r\n}\r\n.nav:hover{\r\n    color: #1A517B;\r\n    cursor: pointer;\r\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "body {\r\n    margin: 0;\r\n    overflow: scroll !important;\r\n}\r\n.works {\r\n    font-size: 45px;\r\n    color: #1a517b;\r\n    font-weight: bold;\r\n}\r\n.works-child {\r\n    font-size: 35px;\r\n    color: #4a7da4;\r\n    font-weight: normal;\r\n    margin-top: 50px;\r\n}\r\n.web {\r\n    width: 784px;\r\n    height: 542px;\r\n    border-radius: 20px;\r\n}\r\n.web:hover {\r\n    -webkit-filter: brightness(85%);\r\n    transition: all 10ms ease;\r\n    cursor: pointer;\r\n}\r\n.works-child:hover {\r\n    color: #1a517b;\r\n    cursor: pointer;\r\n}\r\n.nav {\r\n    color: #4a7da4;\r\n    font-weight: bold;\r\n}\r\n.nav:hover {\r\n    color: #1a517b;\r\n    cursor: pointer;\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -39650,7 +39647,7 @@ var render = function () {
         1
       ),
       _vm._v(" "),
-      _c("div", { staticClass: "container" }, [_c("router-view")], 1),
+      _c("div", { staticClass: "container col-md-9" }, [_c("router-view")], 1),
     ]
   )
 }
@@ -39904,23 +39901,25 @@ var render = function () {
     "div",
     { staticClass: "row", staticStyle: { overflow: "hidden" } },
     [
-      _c("img", {
-        staticClass: "path path-position",
-        attrs: { src: _vm.path, alt: "" },
-      }),
-      _vm._v(" "),
-      _c("img", {
-        staticClass: "group group-position",
-        attrs: { src: _vm.group, alt: "" },
-      }),
-      _vm._v(" "),
-      _vm._m(0),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-md-6" }, [
+      _c("div", { staticClass: "col-md-12 row" }, [
         _c("img", {
-          staticClass: "photo photo-position",
-          attrs: { src: _vm.photo, alt: "" },
+          staticClass: "path path-position",
+          attrs: { src: _vm.path, alt: "" },
         }),
+        _vm._v(" "),
+        _c("img", {
+          staticClass: "group group-position",
+          attrs: { src: _vm.group, alt: "" },
+        }),
+        _vm._v(" "),
+        _vm._m(0),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-6" }, [
+          _c("img", {
+            staticClass: "photo photo-position",
+            attrs: { src: _vm.photo, alt: "" },
+          }),
+        ]),
       ]),
     ]
   )

@@ -1,11 +1,7 @@
 <template>
-  <!-- <div style="overflow:hidden;height:89vh"> -->
-    <!-- </div> -->
-    <!-- <div class="background-custom rectangle"> -->
-    <!-- </div> -->
-  <!-- </div> -->
   <div class="row" style="overflow:hidden">
-    <!-- <div> -->
+    <div class="col-md-12 row">
+
       <img class="path path-position" :src="path" alt="" >
       <img class="group group-position" :src="group " alt="" >
     <div class="col-md-6">
@@ -16,6 +12,7 @@
     <div class="col-md-6">
       <img class="photo photo-position" :src="photo" alt="">
 
+    </div>
     </div>
   </div>
 </template>
