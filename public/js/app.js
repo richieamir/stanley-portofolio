@@ -39805,7 +39805,7 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "container mt-5 row" }, [
+  return _c("div", { staticClass: "container mt-5 col-md-12 row" }, [
     _vm._m(0),
     _vm._v(" "),
     _c(
@@ -39821,7 +39821,7 @@ var render = function () {
       "div",
       {
         staticClass: "col-md-1",
-        staticStyle: { "margin-top": "600px !important" },
+        staticStyle: { "margin-top": "800px !important" },
       },
       [_vm._v(".")]
     ),

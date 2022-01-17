@@ -1,5 +1,5 @@
 <template>
-  <div class="container mt-5 row">
+  <div class="container mt-5 col-md-12 row">
     <div class="col-md-5">
       <div class="col-md-12 mt-5">
         <h1><b>Let's get in touch !</b></h1>
@@ -34,7 +34,7 @@
     <div class="col-md-6 mt-5" style="margin-top:100px !important">
         <img :src="logo" alt="">
     </div>
-    <div class="col-md-1" style="margin-top:600px !important;">.</div>
+    <div class="col-md-1" style="margin-top:800px !important;">.</div>
   </div>
 </template>
 
