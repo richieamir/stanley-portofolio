@@ -37,3 +37,7 @@
 .fa-caret-up {
     color: white;
 }
+.title {
+    font-weight: bold;
+    margin-left: 25%;
+}

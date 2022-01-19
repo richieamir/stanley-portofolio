@@ -2065,6 +2065,31 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+/* harmony import */ var _public_images_offer_uiux_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./../../../public/images/offer/uiux.png */ "./public/images/offer/uiux.png");
+/* harmony import */ var _public_images_offer_graphic_design_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./../../../public/images/offer/graphic_design.png */ "./public/images/offer/graphic_design.png");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -2093,6 +2118,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 __webpack_require__(/*! ./../../css/bubble.css */ "./resources/css/bubble.css");
 
+
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
@@ -2111,7 +2138,11 @@ __webpack_require__(/*! ./../../css/bubble.css */ "./resources/css/bubble.css");
         role: 'UI/UX Designer',
         description: 'UI/UX Designer in Ecommerce Division'
       }],
-      type: 'experience'
+      background: "I graduate from Bina Nusantara University in 2020, and my major is Computer Science. At this point you might be wondering why I didn't choose the IT career path and chose the design career path instead. That's because when I was still in university, I enjoy design much further than programming. Even though I didn't have a background in graphic design, I'm passionate to learn about design. My degree in computer science helps me with the analysis and technical understanding in UI / UX Design.",
+      offering: "0",
+      graphic: _public_images_offer_graphic_design_png__WEBPACK_IMPORTED_MODULE_1__["default"],
+      uiux: _public_images_offer_uiux_png__WEBPACK_IMPORTED_MODULE_0__["default"],
+      type: 'offer'
     };
   }
 });
@@ -7175,7 +7206,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".bubble {\r\n    background: transparent linear-gradient(0deg, #d4f6ff 0%, #ffffff 100%) 0%\r\n        0% no-repeat padding-box;\r\n    border-radius: 16px;\r\n    box-shadow: 0px 6px 3px #00000029;\r\n}\r\n.fa-circle {\r\n    color: #1776ce !important;\r\n}\r\n.vertical-line-icon {\r\n    display: table;\r\n    height: 100%;\r\n}\r\n.vertical-line-icon:after {\r\n    content: \"\";\r\n    display: table;\r\n    margin: 0 auto;\r\n    width: 4px;\r\n    height: 100%;\r\n    background-color: #1776ce;\r\n}\r\n.arrow-exp {\r\n    position: absolute;\r\n    top: 5px;\r\n    left: 120px;\r\n}\r\n.arrow-background {\r\n    position: absolute;\r\n    top: 5px;\r\n    left: 400px;\r\n}\r\n.arrow-offer {\r\n    position: absolute;\r\n    top: 5px;\r\n    left: 680px;\r\n}\r\n.fa-caret-up {\r\n    color: white;\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".bubble {\r\n    background: transparent linear-gradient(0deg, #d4f6ff 0%, #ffffff 100%) 0%\r\n        0% no-repeat padding-box;\r\n    border-radius: 16px;\r\n    box-shadow: 0px 6px 3px #00000029;\r\n}\r\n.fa-circle {\r\n    color: #1776ce !important;\r\n}\r\n.vertical-line-icon {\r\n    display: table;\r\n    height: 100%;\r\n}\r\n.vertical-line-icon:after {\r\n    content: \"\";\r\n    display: table;\r\n    margin: 0 auto;\r\n    width: 4px;\r\n    height: 100%;\r\n    background-color: #1776ce;\r\n}\r\n.arrow-exp {\r\n    position: absolute;\r\n    top: 5px;\r\n    left: 120px;\r\n}\r\n.arrow-background {\r\n    position: absolute;\r\n    top: 5px;\r\n    left: 400px;\r\n}\r\n.arrow-offer {\r\n    position: absolute;\r\n    top: 5px;\r\n    left: 680px;\r\n}\r\n.fa-caret-up {\r\n    color: white;\r\n}\r\n.title {\r\n    font-weight: bold;\r\n    margin-left: 25%;\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -7496,6 +7527,36 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/logo.png?01056f7efe286b67b0add427b65785e2");
+
+/***/ }),
+
+/***/ "./public/images/offer/graphic_design.png":
+/*!************************************************!*\
+  !*** ./public/images/offer/graphic_design.png ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/graphic_design.png?e7b5841f55f1870a110239e4c89403e8");
+
+/***/ }),
+
+/***/ "./public/images/offer/uiux.png":
+/*!**************************************!*\
+  !*** ./public/images/offer/uiux.png ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/uiux.png?5321d408494968daf739e922a02cb552");
 
 /***/ }),
 
@@ -39653,40 +39714,66 @@ var render = function () {
       : _vm._e(),
     _vm._v(" "),
     _c("div", { staticClass: "bubble row mt-5" }, [
-      _c(
-        "div",
-        { staticClass: "m-5 col-md-12" },
-        _vm._l(_vm.experiences, function (exp) {
-          return _c(
+      _vm.type === "experience"
+        ? _c(
             "div",
-            { key: exp.id, staticClass: "content row col-md-12 mt-3" },
-            [
-              _c("div", { staticClass: "col-md-5" }, [
-                _c("h3", [_c("b", [_vm._v(_vm._s(exp.company))])]),
-                _vm._v(
-                  "\n                    " +
-                    _vm._s(exp.startDate) +
-                    " - " +
-                    _vm._s(exp.endDate) +
-                    "\n                "
-                ),
-              ]),
-              _vm._v(" "),
-              _vm._m(0, true),
-              _vm._v(" "),
-              _c("div", { staticClass: "col-md-5" }, [
-                _c("h3", [_c("b", [_vm._v(_vm._s(exp.role))])]),
-                _vm._v(
-                  "\n                    " +
-                    _vm._s(exp.description) +
-                    "\n                "
-                ),
-              ]),
-            ]
+            { staticClass: "m-5 col-md-12" },
+            _vm._l(_vm.experiences, function (exp) {
+              return _c(
+                "div",
+                { key: exp.id, staticClass: "content row col-md-12 mt-3" },
+                [
+                  _c("div", { staticClass: "col-md-5" }, [
+                    _c("h3", [_c("b", [_vm._v(_vm._s(exp.company))])]),
+                    _vm._v(
+                      "\n                    " +
+                        _vm._s(exp.startDate) +
+                        " - " +
+                        _vm._s(exp.endDate) +
+                        "\n                "
+                    ),
+                  ]),
+                  _vm._v(" "),
+                  _vm._m(0, true),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "col-md-5" }, [
+                    _c("h3", [_c("b", [_vm._v(_vm._s(exp.role))])]),
+                    _vm._v(
+                      "\n                    " +
+                        _vm._s(exp.description) +
+                        "\n                "
+                    ),
+                  ]),
+                ]
+              )
+            }),
+            0
           )
-        }),
-        0
-      ),
+        : _vm._e(),
+      _vm._v(" "),
+      _vm.type === "background"
+        ? _c("div", { staticClass: "m-5 col-md-12" }, [
+            _c("div", { staticClass: "mr-5" }, [
+              _vm._v(_vm._s(_vm.background)),
+            ]),
+          ])
+        : _vm._e(),
+      _vm._v(" "),
+      _vm.type === "offer"
+        ? _c("div", { staticClass: "m-5 col-md-12 row" }, [
+            _c("div", { staticClass: "col-md-3" }, [
+              _c("div", [_c("img", { attrs: { src: _vm.uiux, alt: "" } })]),
+              _vm._v(" "),
+              _vm._m(1),
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-md-3" }, [
+              _c("div", [_c("img", { attrs: { src: _vm.graphic, alt: "" } })]),
+              _vm._v(" "),
+              _vm._m(2),
+            ]),
+          ])
+        : _vm._e(),
     ]),
   ])
 }
@@ -39699,6 +39786,22 @@ var staticRenderFns = [
       _c("span", { staticClass: "vertical-line-icon" }, [
         _c("i", { staticClass: "fas fa-circle fa-2x" }),
       ]),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "d-flex justify-content-center" }, [
+      _c("b", [_vm._v("UI UX")]),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "d-flex justify-content-center" }, [
+      _c("b", [_vm._v("Graphic Design")]),
     ])
   },
 ]
