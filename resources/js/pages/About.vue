@@ -26,8 +26,10 @@
         <div class="col-md-3 skill">
           <img :src="mywork" alt="" class="skills">
           <button class="btn-skill">Check out my work</button>
-          
         </div>
+      </div>
+      <div class="col-md-12 mt-4 mr-2">
+        <bubble></bubble>
       </div>
     </div>
   </div>
@@ -42,16 +44,20 @@ import background from "./../../../public/images/about_me/background.png"
 import offering from "./../../../public/images/about_me/offering.png"
 import mywork from "./../../../public/images/about_me/mywork.png"
 import footer from "./../layouts/Footer.vue";
+import bubble from "../components/Bubble.vue"
 export default {
-        data:function(){
-      return{
-        photo:photo,
-        experience:experience,
-        background:background,
-        offering:offering,
-        mywork:mywork,
-        footer:footer
-      }
+      data:function(){
+        return{
+          photo:photo,
+          experience:experience,
+          background:background,
+          offering:offering,
+          mywork:mywork,
+          footer:footer
+        }
+    },
+    components:{
+      'bubble':bubble
     }
 }
 </script>
