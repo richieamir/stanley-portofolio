@@ -2086,6 +2086,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 __webpack_require__(/*! ./../../css/bubble.css */ "./resources/css/bubble.css");
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
@@ -2106,9 +2111,7 @@ __webpack_require__(/*! ./../../css/bubble.css */ "./resources/css/bubble.css");
         role: 'UI/UX Designer',
         description: 'UI/UX Designer in Ecommerce Division'
       }],
-      pic: 'https://picsum.photos/560/600',
-      type: 'UI/UX',
-      title: 'Mobile Apps Design of Klik Indomaret Food'
+      type: 'experience'
     };
   }
 });
@@ -7172,7 +7175,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".bubble {\r\n    background: transparent linear-gradient(0deg, #d4f6ff 0%, #ffffff 100%) 0%\r\n        0% no-repeat padding-box;\r\n    border-radius: 16px;\r\n    box-shadow: 0px 6px 3px #00000029;\r\n}\r\n.fa-circle {\r\n    color: #1776ce !important;\r\n}\r\n.vertical-line-icon {\r\n    display: table;\r\n    height: 100%;\r\n}\r\n.vertical-line-icon:after {\r\n    content: \"\";\r\n    display: table;\r\n    margin: 0 auto;\r\n    width: 4px;\r\n    height: 100%;\r\n    background-color: #1776ce;\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".bubble {\r\n    background: transparent linear-gradient(0deg, #d4f6ff 0%, #ffffff 100%) 0%\r\n        0% no-repeat padding-box;\r\n    border-radius: 16px;\r\n    box-shadow: 0px 6px 3px #00000029;\r\n}\r\n.fa-circle {\r\n    color: #1776ce !important;\r\n}\r\n.vertical-line-icon {\r\n    display: table;\r\n    height: 100%;\r\n}\r\n.vertical-line-icon:after {\r\n    content: \"\";\r\n    display: table;\r\n    margin: 0 auto;\r\n    width: 4px;\r\n    height: 100%;\r\n    background-color: #1776ce;\r\n}\r\n.arrow-exp {\r\n    position: absolute;\r\n    top: 5px;\r\n    left: 120px;\r\n}\r\n.arrow-background {\r\n    position: absolute;\r\n    top: 5px;\r\n    left: 400px;\r\n}\r\n.arrow-offer {\r\n    position: absolute;\r\n    top: 5px;\r\n    left: 680px;\r\n}\r\n.fa-caret-up {\r\n    color: white;\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -39636,41 +39639,55 @@ var render = function () {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "bubble row mt-5" }, [
-    _c(
-      "div",
-      { staticClass: "m-5 col-md-12" },
-      _vm._l(_vm.experiences, function (exp) {
-        return _c(
-          "div",
-          { key: exp.id, staticClass: "content row col-md-12 mt-3" },
-          [
-            _c("div", { staticClass: "col-md-5" }, [
-              _c("h3", [_c("b", [_vm._v(_vm._s(_vm.experiences[0].company))])]),
-              _vm._v(
-                "\n                " +
-                  _vm._s(_vm.experiences[0].startDate) +
-                  " - " +
-                  _vm._s(_vm.experiences[0].endDate) +
-                  "\n            "
-              ),
-            ]),
-            _vm._v(" "),
-            _vm._m(0, true),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-md-5" }, [
-              _c("h3", [_c("b", [_vm._v(_vm._s(_vm.experiences[0].role))])]),
-              _vm._v(
-                "\n                " +
-                  _vm._s(_vm.experiences[0].description) +
-                  "\n            "
-              ),
-            ]),
-          ]
-        )
-      }),
-      0
-    ),
+  return _c("div", { staticClass: "mt-5" }, [
+    _vm.type === "experience"
+      ? _c("i", { staticClass: "fas fa-caret-up fa-5x mb-5 arrow-exp" })
+      : _vm._e(),
+    _vm._v(" "),
+    _vm.type === "background"
+      ? _c("i", { staticClass: "fas fa-caret-up fa-5x mb-5 arrow-background" })
+      : _vm._e(),
+    _vm._v(" "),
+    _vm.type === "offer"
+      ? _c("i", { staticClass: "fas fa-caret-up fa-5x mb-5 arrow-offer" })
+      : _vm._e(),
+    _vm._v(" "),
+    _c("div", { staticClass: "bubble row mt-5" }, [
+      _c(
+        "div",
+        { staticClass: "m-5 col-md-12" },
+        _vm._l(_vm.experiences, function (exp) {
+          return _c(
+            "div",
+            { key: exp.id, staticClass: "content row col-md-12 mt-3" },
+            [
+              _c("div", { staticClass: "col-md-5" }, [
+                _c("h3", [_c("b", [_vm._v(_vm._s(exp.company))])]),
+                _vm._v(
+                  "\n                    " +
+                    _vm._s(exp.startDate) +
+                    " - " +
+                    _vm._s(exp.endDate) +
+                    "\n                "
+                ),
+              ]),
+              _vm._v(" "),
+              _vm._m(0, true),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-md-5" }, [
+                _c("h3", [_c("b", [_vm._v(_vm._s(exp.role))])]),
+                _vm._v(
+                  "\n                    " +
+                    _vm._s(exp.description) +
+                    "\n                "
+                ),
+              ]),
+            ]
+          )
+        }),
+        0
+      ),
+    ]),
   ])
 }
 var staticRenderFns = [
