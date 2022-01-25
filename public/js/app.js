@@ -2513,6 +2513,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 __webpack_require__(/*! ./../../css/shape.css */ "./resources/css/shape.css");
 
 
@@ -7279,7 +7282,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".rectangle {\r\n    left: 70vh;\r\n    right: 40vh;\r\n    /* background-color: black; */\r\n    bottom: 0px;\r\n    margin-right: 100px;\r\n    margin-left: 10px;\r\n    margin-bottom: 10px;\r\n}\r\n.background-custom {\r\n    height: 80%;\r\n    position: absolute;\r\n    /* width: 100%;\r\n    height: 100%;\r\n    max-height: 100%;\r\n    max-width: 100%; */\r\n}\r\n\r\n.image {\r\n    width: 1000px;\r\n    height: 1000px;\r\n}\r\n\r\n/* .photo-position{\r\n    left:26vh;\r\n    top: -33px;\r\n    position: absolute;\r\n\r\n} */\r\n.path-position {\r\n    bottom: 0;\r\n    left: 69px;\r\n    position: absolute;\r\n}\r\n.group-position {\r\n    bottom: 0;\r\n    right: 0px;\r\n    position: absolute;\r\n}\r\n.intro-container {\r\n    margin-top: 25vh;\r\n    width: 82vh;\r\n}\r\n.intro {\r\n    text-align: left;\r\n    /* font: normal normal bold 56px/77px Nunito sans-serif; */\r\n    /* font:sans-serif; */\r\n    font-size: 56px;\r\n    /* letter-spacing: 0px; */\r\n    color: black !important;\r\n    /* opacity: 1; */\r\n    font-weight: bold;\r\n\r\n    margin-top: 20vh;\r\n    width: 65vh;\r\n}\r\n.intro-detail {\r\n    text-align: left;\r\n    font: normal normal normal 20px/27px Nunito;\r\n    letter-spacing: 0px;\r\n    color: black !important;\r\n    opacity: 1;\r\n\r\n    width: 65vh !important;\r\n}\r\n.button {\r\n    background-color: #e29d41;\r\n    border: none;\r\n    position: absolute;\r\n    z-index: 9999;\r\n    color: white;\r\n    padding: 10px 3px;\r\n    text-align: center;\r\n    text-decoration: none;\r\n    display: inline-block;\r\n    font-size: 12px;\r\n    margin: 4px 2px;\r\n    transition-duration: 0.4s;\r\n    cursor: pointer !important;\r\n    border-radius: 8px;\r\n    width: 100px;\r\n}\r\n.button:hover {\r\n    background-color: #ffbf69;\r\n    cursor: pointer;\r\n}\r\n\r\n@media (min-width: 1400px) {\r\n    .photo {\r\n        width: 820px;\r\n        height: 831px;\r\n        -o-object-fit: contain;\r\n           object-fit: contain;\r\n    }\r\n    .path {\r\n        width: 1365px;\r\n        height: 269px;\r\n        -o-object-fit: contain;\r\n           object-fit: contain;\r\n    }\r\n    .group {\r\n        width: 682px;\r\n        height: 611px;\r\n    }\r\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".rectangle {\r\n    left: 70vh;\r\n    right: 40vh;\r\n    /* background-color: black; */\r\n    bottom: 0px;\r\n    margin-right: 100px;\r\n    margin-left: 10px;\r\n    margin-bottom: 10px;\r\n}\r\n.background-custom {\r\n    height: 80%;\r\n    position: absolute;\r\n    /* width: 100%;\r\n    height: 100%;\r\n    max-height: 100%;\r\n    max-width: 100%; */\r\n}\r\n\r\n.image {\r\n    width: 1000px;\r\n    height: 1000px;\r\n}\r\n\r\n/* .photo-position{\r\n    left:26vh;\r\n    top: -33px;\r\n    position: absolute;\r\n\r\n} */\r\n.path-position {\r\n    bottom: 0;\r\n    left: 69px;\r\n    position: absolute;\r\n}\r\n.group-position {\r\n    bottom: 0;\r\n    right: 0px;\r\n    position: absolute;\r\n}\r\n.intro-container {\r\n    margin-top: 25vh;\r\n    width: 82vh;\r\n}\r\n.intro {\r\n    text-align: left;\r\n    /* font: normal normal bold 56px/77px Nunito sans-serif; */\r\n    /* font:sans-serif; */\r\n    font-size: 56px;\r\n    /* letter-spacing: 0px; */\r\n    color: black !important;\r\n    /* opacity: 1; */\r\n    font-weight: bold;\r\n\r\n    margin-top: 20vh;\r\n    width: 65vh;\r\n}\r\n.intro-detail {\r\n    text-align: left;\r\n    font: normal normal normal 20px/27px Nunito;\r\n    letter-spacing: 0px;\r\n    color: black !important;\r\n    opacity: 1;\r\n\r\n    width: 65vh !important;\r\n}\r\n.button {\r\n    background-color: #e29d41;\r\n    border: none;\r\n    position: absolute;\r\n    z-index: 9999;\r\n    color: white;\r\n    padding: 10px 3px;\r\n    text-align: center;\r\n    text-decoration: none;\r\n    display: inline-block;\r\n    font-size: 12px;\r\n    margin: 4px 2px;\r\n    transition-duration: 0.4s;\r\n    cursor: pointer !important;\r\n    border-radius: 8px;\r\n    width: 100px;\r\n}\r\n.button:hover {\r\n    background-color: #ffbf69;\r\n    cursor: pointer;\r\n}\r\n\r\n@media (min-width: 1400px) {\r\n    .photo {\r\n        width: 820px;\r\n        height: 831px;\r\n        -o-object-fit: contain;\r\n           object-fit: contain;\r\n    }\r\n    .path {\r\n        width: 1365px;\r\n        height: 269px;\r\n        -o-object-fit: contain;\r\n           object-fit: contain;\r\n    }\r\n    .group {\r\n        width: 682px;\r\n        height: 611px;\r\n    }\r\n}\r\n@media (min-width: 1300px) {\r\n    .photo {\r\n        width: 620px;\r\n        height: 631px;\r\n        -o-object-fit: contain;\r\n           object-fit: contain;\r\n    }\r\n    .path {\r\n        width: 1365px;\r\n        height: 269px;\r\n        -o-object-fit: contain;\r\n           object-fit: contain;\r\n    }\r\n    .group {\r\n        width: 682px;\r\n        height: 611px;\r\n    }\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -40301,11 +40304,15 @@ var render = function () {
         _vm._v(" "),
         _vm._m(0),
         _vm._v(" "),
-        _c("div", { staticClass: "col-md-6" }, [
-          _c("img", {
-            staticClass: "photo photo-position",
-            attrs: { src: _vm.photo, alt: "" },
-          }),
+        _c("div", { staticClass: "col-md-6 row" }, [
+          _c("div", { staticClass: "col-md-6" }, [
+            _c("img", {
+              staticClass: "photo photo-position",
+              attrs: { src: _vm.photo, alt: "" },
+            }),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-6" }),
         ]),
       ]),
     ]
@@ -40316,7 +40323,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-6" }, [
+    return _c("div", { staticClass: "col-md-4" }, [
       _c("p", { staticClass: "intro" }, [_vm._v("Hi, I am Stanley Muliawan")]),
       _vm._v(" "),
       _c("p", { staticClass: "intro-detail" }, [

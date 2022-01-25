@@ -4,13 +4,16 @@
 
       <img class="path path-position" :src="path" alt="" >
       <img class="group group-position" :src="group " alt="" >
-    <div class="col-md-6">
+    <div class="col-md-4">
       <p class="intro">Hi, I am Stanley Muliawan</p>
       <p class="intro-detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque egestas suscipit lacus sit amet maximus. Mauris in sodales ante. Aenean tincidunt orci vitae sollicitudin sodales.</p>
       <button type="submit" class="button">More about me</button>
     </div>
-    <div class="col-md-6">
-      <img class="photo photo-position" :src="photo" alt="">
+    <div class="col-md-6 row">
+      <div class="col-md-6">
+        <img class="photo photo-position" :src="photo" alt="">
+      </div>
+      <div class="col-md-6"></div>
 
     </div>
     </div>

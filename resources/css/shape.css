@@ -103,3 +103,19 @@
         height: 611px;
     }
 }
+@media (min-width: 1300px) {
+    .photo {
+        width: 620px;
+        height: 631px;
+        object-fit: contain;
+    }
+    .path {
+        width: 1365px;
+        height: 269px;
+        object-fit: contain;
+    }
+    .group {
+        width: 682px;
+        height: 611px;
+    }
+}
