@@ -62,7 +62,8 @@ export default {
                     endDate:'March 2019',
                     role:'Graphic Designer',
                     description:'Graphic Designer for Digital Advertising in Ecommerce Division'
-                },
+                }
+                ,
                 {
                     id:2,
                     company:'PT Indomarco Prismatama',
@@ -76,7 +77,7 @@ export default {
             offering:"0",
             graphic:graphic,
             uiux:uiux,
-            type:'offer'
+            type:'experience'
         }
     }
 }

@@ -2142,7 +2142,7 @@ __webpack_require__(/*! ./../../css/bubble.css */ "./resources/css/bubble.css");
       offering: "0",
       graphic: _public_images_offer_graphic_design_png__WEBPACK_IMPORTED_MODULE_1__["default"],
       uiux: _public_images_offer_uiux_png__WEBPACK_IMPORTED_MODULE_0__["default"],
-      type: 'offer'
+      type: 'experience'
     };
   }
 });
@@ -7254,7 +7254,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".navbarNew{\r\n    margin-left:10%;\r\n    width:80%;\r\n    border-radius: 0px 0px 20px 20px;\r\n    box-shadow: 0px 3px 0px #00000029 !important;\r\n    height: 13vh;\r\n}\r\n.logo{\r\n    margin-left:3.4vh;\r\n}\r\n\r\n.menu{\r\n    margin-right:6.6vh;\r\n    color:#4A7DA4;\r\n}\r\n\r\n.nav-link{\r\n    color:#4A7DA4 !important;\r\n    padding-left:1.5vh j!important;\r\n    padding-right:1.5vh !important;\r\n}\r\n\r\n.nav-link:hover{\r\n    color: #1A517B !important;\r\n}\r\n\r\n.nav-link.active{\r\n    color:#FFBF69 !important;\r\n    border-bottom: solid;\r\n}\r\n\r\n.container{\r\n    margin-top:100px;\r\n}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".navbarNew {\r\n    margin-left: 10%;\r\n    width: 80%;\r\n    border-radius: 0px 0px 20px 20px;\r\n    box-shadow: 0px 3px 0px #00000029 !important;\r\n    height: 10vh;\r\n}\r\n.navbar {\r\n    width: 1240px !important;\r\n    height: 96px !important;\r\n    margin-left: 17%;\r\n}\r\n.logo {\r\n    margin-left: 3.4vh;\r\n}\r\n\r\n.menu {\r\n    margin-right: 6.6vh;\r\n    color: #4a7da4;\r\n}\r\n\r\n.nav-link {\r\n    color: #4a7da4 !important;\r\n    padding-left: 1.5vh j !important;\r\n    padding-right: 1.5vh !important;\r\n}\r\n\r\n.nav-link:hover {\r\n    color: #1a517b !important;\r\n}\r\n\r\n.nav-link.active {\r\n    color: #ffbf69 !important;\r\n    border-bottom: solid;\r\n}\r\n\r\n.container {\r\n    margin-top: 100px;\r\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -40032,7 +40032,7 @@ var render = function () {
         1
       ),
       _vm._v(" "),
-      _c("div", { staticClass: "container col-md-9" }, [_c("router-view")], 1),
+      _c("div", { staticClass: "container col-md-8" }, [_c("router-view")], 1),
     ]
   )
 }

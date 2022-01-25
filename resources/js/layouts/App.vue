@@ -49,7 +49,7 @@
       </div>
     </div>
 
-    <div class="container col-md-9">
+    <div class="container col-md-8">
       <router-view></router-view>
     </div>
   </div>
